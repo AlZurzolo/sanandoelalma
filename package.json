@@ -1,0 +1,28 @@
+{
+  "name": "sanandoelalma",
+  "version": "1.0.0",
+  "description": "web sanando el alma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlZurzolo/sanandoelalma.git"
+  },
+  "author": "Aldo Enrique Zurzolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlZurzolo/sanandoelalma/issues"
+  },
+  "homepage": "https://github.com/AlZurzolo/sanandoelalma#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
